@@ -1,0 +1,246 @@
+[2023-02-08 18:30:26,014] - INFO - root - === Starting training for language kor
+[2023-02-08 18:30:26,014] - DEBUG - tesstrain.language_specific - ambigs_filter_denominator = 100000
+[2023-02-08 18:30:26,014] - DEBUG - tesstrain.language_specific - bigram_dawg_factor = 0.015
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - exposures = [0] (was None)
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - filter_arguments = ['--charset_filter=kor', '--segmenter_lang=kor']
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - fonts = ['Yydimibang'] (set on cmdline)
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - fragments_disabled = y
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - generate_word_bigrams = 0
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - lang_is_rtl = False
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - leading = 32
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - mean_count = 20
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - mix_lang = eng
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - norm_mode = 1
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - number_dawg_factor = 0.05
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - punc_dawg_factor = None
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - run_shape_clustering = False (set on cmdline)
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - text2image_extra_args = []
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - text_corpus = /kor.corpus.txt
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - training_data_arguments = ['--infrequent_ratio=10000', '--desired_bigrams=']
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - word_dawg_factor = 0.015
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - word_dawg_size = None
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.language_specific - wordlist2dawg_arguments = 
+[2023-02-08 18:30:26,015] - INFO - tesstrain.generate - Testing font: Yydimibang
+[2023-02-08 18:30:26,015] - DEBUG - tesstrain.generate - Running /usr/local/bin/text2image
+[2023-02-08 18:30:26,016] - DEBUG - tesstrain.generate - --fonts_dir=/opt/final-project-level2-cv-11/src/model/font_generator/gasnext/datasets/ttfs/untypical
+[2023-02-08 18:30:26,016] - DEBUG - tesstrain.generate - --font=Yydimibang
+[2023-02-08 18:30:26,016] - DEBUG - tesstrain.generate - --outputbase=/tmp/font_tmprzr21f38/sample_text.txt
+[2023-02-08 18:30:26,016] - DEBUG - tesstrain.generate - --text=/tmp/font_tmprzr21f38/sample_text.txt
+[2023-02-08 18:30:26,016] - DEBUG - tesstrain.generate - --fontconfig_tmpdir=/tmp/font_tmprzr21f38
+[2023-02-08 18:30:26,016] - DEBUG - tesstrain.generate - --ptsize=12
+[2023-02-08 18:30:35,575] - DEBUG - /usr/local/bin/text2image - Rendered page 0 to file /tmp/font_tmprzr21f38/sample_text.txt.tif
+
+[2023-02-08 18:30:35,575] - INFO - tesstrain.generate - === Phase I: Generating training images ===
+[2023-02-08 18:30:35,587] - INFO - tesstrain.generate - Rendering using Yydimibang
+[2023-02-08 18:30:35,588] - DEBUG - tesstrain.generate - Running /usr/local/bin/text2image
+[2023-02-08 18:30:35,588] - DEBUG - tesstrain.generate - --fontconfig_tmpdir=/tmp/font_tmprzr21f38
+[2023-02-08 18:30:35,589] - DEBUG - tesstrain.generate - --fonts_dir=/opt/final-project-level2-cv-11/src/model/font_generator/gasnext/datasets/ttfs/untypical
+[2023-02-08 18:30:35,589] - DEBUG - tesstrain.generate - --strip_unrenderable_words
+[2023-02-08 18:30:35,589] - DEBUG - tesstrain.generate - --leading=32
+[2023-02-08 18:30:35,589] - DEBUG - tesstrain.generate - --char_spacing=0.0
+[2023-02-08 18:30:35,589] - DEBUG - tesstrain.generate - --exposure=0
+[2023-02-08 18:30:35,589] - DEBUG - tesstrain.generate - --outputbase=/tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0
+[2023-02-08 18:30:35,589] - DEBUG - tesstrain.generate - --max_pages=0
+[2023-02-08 18:30:35,589] - DEBUG - tesstrain.generate - --font=Yydimibang
+[2023-02-08 18:30:35,589] - DEBUG - tesstrain.generate - --text=/opt/level3_productserving-level3-cv-11/model/tesstrain/data/langdata/kor/kor.training_text
+[2023-02-08 18:30:35,589] - DEBUG - tesstrain.generate - --ptsize=12
+[2023-02-08 18:30:50,755] - DEBUG - /usr/local/bin/text2image - Rendered page 0 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 1 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 2 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 3 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 4 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 5 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 6 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 7 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 8 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 9 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 10 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 11 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 12 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 13 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 14 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 15 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 16 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 17 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 18 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 19 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 20 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 21 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+Rendered page 22 to file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+
+[2023-02-08 18:30:50,757] - INFO - tesstrain.generate - === Phase UP: Generating unicharset and unichar properties files ===
+[2023-02-08 18:30:50,758] - DEBUG - tesstrain.generate - Running /usr/local/bin/unicharset_extractor
+[2023-02-08 18:30:50,758] - DEBUG - tesstrain.generate - --output_unicharset
+[2023-02-08 18:30:50,758] - DEBUG - tesstrain.generate - /tmp/kor-2023-02-08n1ng6__z/kor.unicharset
+[2023-02-08 18:30:50,758] - DEBUG - tesstrain.generate - --norm_mode
+[2023-02-08 18:30:50,758] - DEBUG - tesstrain.generate - 1
+[2023-02-08 18:30:50,758] - DEBUG - tesstrain.generate - /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.box
+[2023-02-08 18:30:50,870] - DEBUG - /usr/local/bin/unicharset_extractor - Extracting unicharset from box file /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.box
+Other case Ｌ of ｌ is not in unicharset
+Other case Ｍ of ｍ is not in unicharset
+Wrote unicharset file /tmp/kor-2023-02-08n1ng6__z/kor.unicharset
+
+[2023-02-08 18:30:50,871] - DEBUG - tesstrain.generate - Running /usr/local/bin/set_unicharset_properties
+[2023-02-08 18:30:50,871] - DEBUG - tesstrain.generate - -U
+[2023-02-08 18:30:50,871] - DEBUG - tesstrain.generate - /tmp/kor-2023-02-08n1ng6__z/kor.unicharset
+[2023-02-08 18:30:50,871] - DEBUG - tesstrain.generate - -O
+[2023-02-08 18:30:50,871] - DEBUG - tesstrain.generate - /tmp/kor-2023-02-08n1ng6__z/kor.unicharset
+[2023-02-08 18:30:50,871] - DEBUG - tesstrain.generate - -X
+[2023-02-08 18:30:50,871] - DEBUG - tesstrain.generate - /tmp/kor-2023-02-08n1ng6__z/kor.xheights
+[2023-02-08 18:30:50,871] - DEBUG - tesstrain.generate - --script_dir=/opt/level3_productserving-level3-cv-11/model/tesstrain/data/langdata
+[2023-02-08 18:30:50,945] - DEBUG - /usr/local/bin/set_unicharset_properties - Loaded unicharset of size 1773 from file /tmp/kor-2023-02-08n1ng6__z/kor.unicharset
+Setting unichar properties
+Other case Ｌ of ｌ is not in unicharset
+Other case Ｍ of ｍ is not in unicharset
+Setting script properties
+Warning: properties incomplete for index 71 = ｌ
+Warning: properties incomplete for index 153 = ，
+Warning: properties incomplete for index 182 = ？
+Warning: properties incomplete for index 313 = １
+Warning: properties incomplete for index 314 = ０
+Warning: properties incomplete for index 368 = ５
+Warning: properties incomplete for index 579 = ］
+Warning: properties incomplete for index 720 = －
+Warning: properties incomplete for index 918 = ２
+Warning: properties incomplete for index 941 = ￥
+Warning: properties incomplete for index 969 = ＆
+Warning: properties incomplete for index 1065 = ３
+Warning: properties incomplete for index 1114 = ～
+Warning: properties incomplete for index 1226 = ｜
+Warning: properties incomplete for index 1315 = ＋
+Warning: properties incomplete for index 1377 = ＊
+Warning: properties incomplete for index 1452 = ＃
+Warning: properties incomplete for index 1495 = ＜
+Warning: properties incomplete for index 1518 = ％
+Warning: properties incomplete for index 1564 = ｍ
+Warning: properties incomplete for index 1607 = ￦
+Warning: properties incomplete for index 1626 = ／
+Warning: properties incomplete for index 1642 = ＞
+Warning: properties incomplete for index 1660 = ．
+Warning: properties incomplete for index 1700 = ［
+Warning: properties incomplete for index 1714 = ＂
+Warning: properties incomplete for index 1755 = ：
+Warning: properties incomplete for index 1762 = ＇
+Warning: properties incomplete for index 1763 = ！
+Warning: properties incomplete for index 1764 = ）
+Warning: properties incomplete for index 1772 = （
+Writing unicharset to file /tmp/kor-2023-02-08n1ng6__z/kor.unicharset
+
+[2023-02-08 18:30:50,945] - INFO - tesstrain.generate - === Phase E: Generating lstmf files ===
+[2023-02-08 18:30:50,946] - DEBUG - tesstrain.generate - [PosixPath('/tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif')]
+[2023-02-08 18:30:50,946] - INFO - tesstrain.generate - Using kor.config
+[2023-02-08 18:30:50,946] - INFO - tesstrain.generate - Using TESSDATA_PREFIX=/opt/level3_productserving-level3-cv-11/model/tesstrain/usr/share/tessdata
+[2023-02-08 18:30:50,947] - DEBUG - tesstrain.generate - Running /usr/local/bin/tesseract
+[2023-02-08 18:30:50,947] - DEBUG - tesstrain.generate - /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif
+[2023-02-08 18:30:50,947] - DEBUG - tesstrain.generate - /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0
+[2023-02-08 18:30:50,947] - DEBUG - tesstrain.generate - lstm.train
+[2023-02-08 18:30:50,947] - DEBUG - tesstrain.generate - /opt/level3_productserving-level3-cv-11/model/tesstrain/data/langdata/kor/kor.config
+[2023-02-08 18:31:12,321] - DEBUG - /usr/local/bin/tesseract - Page 1
+Page 2
+Loaded 54/54 lines (1-54) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 3
+Loaded 108/108 lines (1-108) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 4
+Loaded 162/162 lines (1-162) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 5
+Loaded 216/216 lines (1-216) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 6
+Loaded 270/270 lines (1-270) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 7
+Loaded 324/324 lines (1-324) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 8
+Loaded 378/378 lines (1-378) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 9
+Loaded 432/432 lines (1-432) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 10
+Loaded 486/486 lines (1-486) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 11
+Loaded 540/540 lines (1-540) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 12
+Loaded 594/594 lines (1-594) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 13
+Loaded 648/648 lines (1-648) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 14
+Loaded 702/702 lines (1-702) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 15
+Loaded 756/756 lines (1-756) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 16
+Loaded 810/810 lines (1-810) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 17
+Loaded 864/864 lines (1-864) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 18
+Loaded 918/918 lines (1-918) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 19
+Loaded 972/972 lines (1-972) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 20
+Loaded 1026/1026 lines (1-1026) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 21
+Loaded 1080/1080 lines (1-1080) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 22
+Loaded 1134/1134 lines (1-1134) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+Page 23
+Loaded 1188/1188 lines (1-1188) of document /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf
+
+[2023-02-08 18:31:12,323] - INFO - tesstrain.generate - === Constructing LSTM training data ===
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - Running /usr/local/bin/combine_lang_model
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - --input_unicharset
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - /tmp/kor-2023-02-08n1ng6__z/kor.unicharset
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - --script_dir
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - /opt/level3_productserving-level3-cv-11/model/tesstrain/data/langdata
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - --words
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - /opt/level3_productserving-level3-cv-11/model/tesstrain/data/langdata/kor/kor.wordlist
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - --numbers
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - /opt/level3_productserving-level3-cv-11/model/tesstrain/data/langdata/kor/kor.numbers
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - --puncs
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - /opt/level3_productserving-level3-cv-11/model/tesstrain/data/langdata/kor/kor.punc
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - --output_dir
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - /opt/level3_productserving-level3-cv-11/model/tesstrain/tools/
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - --lang
+[2023-02-08 18:31:12,323] - DEBUG - tesstrain.generate - kor
+[2023-02-08 18:31:12,677] - DEBUG - /usr/local/bin/combine_lang_model - Loaded unicharset of size 1773 from file /tmp/kor-2023-02-08n1ng6__z/kor.unicharset
+Setting unichar properties
+Other case Ｌ of ｌ is not in unicharset
+Other case Ｍ of ｍ is not in unicharset
+Setting script properties
+Warning: properties incomplete for index 71 = ｌ
+Warning: properties incomplete for index 153 = ，
+Warning: properties incomplete for index 182 = ？
+Warning: properties incomplete for index 313 = １
+Warning: properties incomplete for index 314 = ０
+Warning: properties incomplete for index 368 = ５
+Warning: properties incomplete for index 579 = ］
+Warning: properties incomplete for index 720 = －
+Warning: properties incomplete for index 918 = ２
+Warning: properties incomplete for index 941 = ￥
+Warning: properties incomplete for index 969 = ＆
+Warning: properties incomplete for index 1065 = ３
+Warning: properties incomplete for index 1114 = ～
+Warning: properties incomplete for index 1226 = ｜
+Warning: properties incomplete for index 1315 = ＋
+Warning: properties incomplete for index 1377 = ＊
+Warning: properties incomplete for index 1452 = ＃
+Warning: properties incomplete for index 1495 = ＜
+Warning: properties incomplete for index 1518 = ％
+Warning: properties incomplete for index 1564 = ｍ
+Warning: properties incomplete for index 1607 = ￦
+Warning: properties incomplete for index 1626 = ／
+Warning: properties incomplete for index 1642 = ＞
+Warning: properties incomplete for index 1660 = ．
+Warning: properties incomplete for index 1700 = ［
+Warning: properties incomplete for index 1714 = ＂
+Warning: properties incomplete for index 1755 = ：
+Warning: properties incomplete for index 1762 = ＇
+Warning: properties incomplete for index 1763 = ！
+Warning: properties incomplete for index 1764 = ）
+Warning: properties incomplete for index 1772 = （
+Config file is optional, continuing...
+Null char=2
+Reducing Trie to SquishedDawg
+Reducing Trie to SquishedDawg
+Reducing Trie to SquishedDawg
+
+[2023-02-08 18:31:12,677] - INFO - tesstrain.generate - === Saving box/tiff pairs for training data ===
+[2023-02-08 18:31:12,678] - DEBUG - tesstrain.generate - Moving /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.box to /opt/level3_productserving-level3-cv-11/model/tesstrain/tools/kor.Yydimibang.exp0.box
+[2023-02-08 18:31:12,678] - DEBUG - tesstrain.generate - Moving /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.tif to /opt/level3_productserving-level3-cv-11/model/tesstrain/tools/kor.Yydimibang.exp0.tif
+[2023-02-08 18:31:12,679] - INFO - tesstrain.generate - === Moving lstmf files for training data ===
+[2023-02-08 18:31:12,679] - DEBUG - tesstrain.generate - Moving /tmp/kor-2023-02-08n1ng6__z/kor.Yydimibang.exp0.lstmf to /opt/level3_productserving-level3-cv-11/model/tesstrain/tools/kor.Yydimibang.exp0.lstmf

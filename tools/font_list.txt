@@ -1,0 +1,438 @@
+  0: (1) YangPyeong L
+  1: (2) YangPyeong M
+  2: (3) YangPyeong B
+  3: 62570
+  4: ACCchildrenfall
+  5: ACCchildrenheart
+  6: ACCchildrensky
+  7: AndongKaturi
+  8: AndongWolyeonggyo
+  9: Ansungtangmyun Bold
+ 10: Ansungtangmyun Bold
+ 11: BM DoHyeon
+ 12: BM EULJIRO TTF
+ 13: BM HANNA 11yrs old
+ 14: BM HANNA Air
+ 15: BM HANNA Pro
+ 16: BM JUA_TTF
+ 17: BM KIRANGHAERANG
+ 18: BM YEONSUNG
+ 19: Bazzi
+ 20: Bitgoeul_Bold
+ 21: Bitgoeul_Light
+ 22: Bitgoeul_Medium
+ 23: CBNU JIKJI
+ 24: Cafe24 ClassicType
+ 25: Cafe24 Dongdong
+ 26: Cafe24 Shiningstar
+ 27: Cafe24 Syongsyong
+ 28: ChangwonDangamAsac Bold
+ 29: Chilgok_Cye
+ 30: Chilgok_Kaj
+ 31: Chilgok_kyb
+ 32: Chilgok_ljh
+ 33: Chilgok_lws
+ 34: Chosun Centennial
+ 35: Chungbuk National University Bold
+ 36: Chungbuk National University Regular
+ 37: ChusaLove
+ 38: ChusaLove Bold
+ 39: DNF Bit Bit TTF
+ 40: DX3학년1반B
+ 41: DX피오피 Medium
+ 42: DalseoDarling
+ 43: DalseoHealing Bold
+ 44: DalseoHealing Medium
+ 45: DejaVu Sans
+ 46: DejaVu Sans Bold
+ 47: DejaVu Sans Mono
+ 48: DejaVu Sans Mono Bold
+ 49: DejaVu Serif
+ 50: DejaVu Serif Bold
+ 51: DungGeunMo
+ 52: EF_Firenze
+ 53: EF_jejudoldam
+ 54: EF_watermelonSalad
+ 55: EnvironmentB
+ 56: EnvironmentR
+ 57: FOUREYES
+ 58: FUNFLOW SURVIVOR KR
+ 59: Gabia Cheongyeon
+ 60: Gabia Maeumgyeol
+ 61: Gabia Solmee
+ 62: Galmuri11
+ 63: Galmuri11 Bold
+ 64: Galmuri11 Condensed
+ 65: Galmuri14
+ 66: Galmuri7
+ 67: Galmuri9
+ 68: GangwonEduAll
+ 69: GangwonEduAll
+ 70: GangwonEduHyeonokT
+ 71: GangwonEduPower
+ 72: GangwonEduSaeeum
+ 73: Ghanachocolate
+ 74: GimhaeGaya
+ 75: GimhaeGaya
+ 76: GimpoBatang
+ 77: GimpoGothic
+ 78: GimpoGothic Bold
+ 79: GimpoTitle
+ 80: GoyangDeogyang B
+ 81: GoyangDeogyang EB
+ 82: GoyangIlsan L
+ 83: GoyangIlsan R
+ 84: GyeonggiBatang
+ 85: GyeonggiBatang Bold
+ 86: GyeonggiTitle Bold
+ 87: GyeonggiTitle Light
+ 88: GyeonggiTitle Medium
+ 89: GyeonggiTitleV Bold
+ 90: HS겨울눈꽃체2.0
+ 91: HS산토끼체
+ 92: HaenamFont
+ 93: HanS
+ 94: HappyGoheungB
+ 95: HappyGoheungL
+ 96: HappyGoheungM
+ 97: Hoengseong Hanu
+ 98: Hogook Bold
+ 99: Hogook Std
+100: Iropke Batang
+101: JS Arirang
+102: JS Arirang HON
+103: JS Arirang PPURI
+104: JS Dongkang
+105: JS Dongkang Bold
+106: Jaemin TTF
+107: Jalnan Bold
+108: JejuGothic
+109: JejuHallasan
+110: JejuMyeongjo
+111: Joongnajoche Medium
+112: Joongnajoche Medium
+113: KBIZmjo B
+114: KBIZmjo L
+115: KBIZmjo M
+116: KBIZmjo R
+117: KCC-Jeongbeom
+118: KCC-Kimhoon
+119: KCC-Kimhwanki
+120: KCC-eunyoung
+121: KCCAhnjunggeun
+122: KCCChassam
+123: KCCDodamdodam
+124: KCCImkwontaek
+125: KHNPHandotum Bold, Bold
+126: KHNPHandotum Bold, Bold
+127: KHNPHandotum Bold, Bold
+128: KHNPHanuoolim
+129: KIMM_Bold Bold
+130: KIMM_Light Light
+131: KNPS Bandali
+132: KNPS Kkomi
+133: KOTRA HOPE
+134: KOTRA LEAP
+135: KOTRA_BOLD Bold Expanded
+136: KOTRA_GOTHIC
+137: KOTRA_SONGEULSSI Medium
+138: KoPubBatang Bold
+139: KoPubBatang Light
+140: KoPubBatang Medium
+141: KoPubDotum Bold
+142: KoPubDotum Light
+143: KoPubDotum Medium
+144: KoPubWorldBatang Bold
+145: KoPubWorldBatang Light
+146: KoPubWorldBatang Medium
+147: KoPubWorldDotum Bold
+148: KoPubWorldDotum Light
+149: KoPubWorldDotum Medium
+150: KoreanGYOKR
+151: KoreanPOBBOR
+152: KoreanPOBBR
+153: KoreanPOBIMR
+154: KoreanPOBIR
+155: KoreanPODGOR
+156: KoreanPODGR
+157: KoreanPONMOR
+158: KoreanPONMR
+159: Kyobo Handwriting 2021
+160: LH B
+161: LH L
+162: LH M
+163: MYArirang Medium
+164: MYArirang_gothic Light Condensed
+165: MYHaemalgeunSangsang
+166: MYYeongnamnu
+167: Makgeolli
+168: MapoAgape
+169: MapoBackpacking
+170: MapoDPP
+171: MapoDacapo
+172: MapoFlowerIsland
+173: MapoGoldenPier
+174: MapoHongdaeFreedom
+175: MapoMaponaru
+176: MapoPeacefull
+177: Miwon Bold
+178: MunhwajaeDolbom Bold
+179: MunhwajaeDolbom Regular
+180: MuseumClassic Bold
+181: MuseumClassic Light
+182: MuseumClassic Medium
+183: Nanum AJumMaJaYu
+184: Nanum BaReunHiPi
+185: Nanum BaReunJeongSin
+186: Nanum BiSangCe
+187: Nanum Brush Script
+188: Nanum DaeGwangYuRi
+189: Nanum DungGeunInYeon
+190: Nanum GgocNaeEum
+191: Nanum GiBbeumBarkEum
+192: Nanum GoDigANiGoGoDing
+193: Nanum GoRyeoGeurGgor
+194: Nanum GyuRiEuiIrGi
+195: Nanum HaengBogHanDoBi
+196: Nanum HyeogICe
+197: Nanum HyoNamNeurHwaITing
+198: Nanum JeomGgorCe
+199: Nanum MaGoCe
+200: Nanum MiRaeNaMu
+201: Nanum NeuRisNeuRisCe
+202: Nanum OenSonJabIDoYeBbeo
+203: Nanum OgBiCe
+204: Nanum Pen Script
+205: Nanum SangHaeCanMiCe
+206: Nanum SiUGwiYeoWeo
+207: Nanum SoMiCe
+208: Nanum SonPyeonJiCe
+209: Nanum SuJubEunDaeHagSaeng
+210: Nanum YeBbeunMinGyeongCe
+211: Nanum YeoReumGeurSsi
+212: Nanum YeorIrCe
+213: NanumBarunGothic
+214: NanumBarunGothic Light
+215: NanumBarunGothic Light
+216: NanumBarunGothic Semi-Bold
+217: NanumGothic
+218: NanumGothic Bold
+219: NanumGothic Eco
+220: NanumGothic Eco Bold
+221: NanumGothic Eco Semi-Bold
+222: NanumGothic Light
+223: NanumGothic Semi-Bold
+224: NanumMyeongjo
+225: NanumMyeongjo Bold
+226: NanumMyeongjo Eco
+227: NanumMyeongjo Eco Bold
+228: NanumMyeongjo Eco Semi-Bold
+229: NanumMyeongjo Semi-Bold
+230: NanumSquare Neo Bold, Bold
+231: NanumSquare Neo ExtraBold, Ultra-Bold
+232: NanumSquare Neo Heavy, Heavy
+233: NanumSquare Neo Light, Semi-Light
+234: NanumSquare Neo Regular
+235: NanumSquareRound
+236: NanumSquareRound Bold
+237: NanumSquareRound Light
+238: NanumSquareRound Ultra-Bold
+239: NapjakBlock
+240: OK CHAN
+241: OK DDUNG
+242: OK GUNG
+243: ONE Mobile
+244: ONE Mobile Bold
+245: ONE Mobile Light
+246: ONE Mobile POP
+247: ONE Mobile Title
+248: OSeong and HanEum
+249: OSeong and HanEum Bold
+250: Owgnylph WinnerPark
+251: Ownglyph 0923
+252: Ownglyph 2022 UWY Da Gyeong
+253: Ownglyph 2022 UWY Si Woo
+254: Ownglyph BohyunChae
+255: Ownglyph Chesedcali
+256: Ownglyph Dangkea
+257: Ownglyph Danjae ShinCheaho
+258: Ownglyph Deoua
+259: Ownglyph Dongdorodong L
+260: Ownglyph EuiyeonChae
+261: Ownglyph HaesomChae
+262: Ownglyph Happymquokka
+263: Ownglyph Hoseung T
+264: Ownglyph Jinju Font
+265: Ownglyph Kim Sunyeob
+266: Ownglyph KwonMunjiii1
+267: Ownglyph KyeongyeongChae
+268: Ownglyph Kyong day
+269: Ownglyph LYRIEDDAEI
+270: Ownglyph Limahra
+271: Ownglyph Mbitz
+272: Ownglyph Mirac
+273: Ownglyph MoogungChae
+274: Ownglyph NANAYANG
+275: Ownglyph Nari in syd
+276: Ownglyph Oolongtea
+277: Ownglyph Peekabooo
+278: Ownglyph Pucca
+279: Ownglyph Senator font
+280: Ownglyph SeokyoungChae
+281: Ownglyph Silvercastle
+282: Ownglyph Silverwave
+283: Ownglyph Som Brush
+284: Ownglyph Soondol
+285: Ownglyph Sweetie minguri
+286: Ownglyph TeaTea font
+287: Ownglyph WonSikLEE
+288: Ownglyph Yejjnee
+289: Ownglyph Yeon The Land
+290: Ownglyph Yeoun
+291: Ownglyph Yileut
+292: Ownglyph Youstar
+293: Ownglyph Yunaa
+294: Ownglyph bichina
+295: Ownglyph bogyeong
+296: Ownglyph dammi
+297: Ownglyph funnyseon
+298: Ownglyph gumama
+299: Ownglyph gumama HP
+300: Ownglyph gumama2
+301: Ownglyph han
+302: Ownglyph hoddeok
+303: Ownglyph islandooo
+304: Ownglyph kirong
+305: Ownglyph lovelydadidon
+306: Ownglyph mandu0chirp
+307: Ownglyph middo1
+308: Ownglyph mim
+309: Ownglyph mite
+310: Ownglyph mongcloud
+311: Ownglyph naminhui
+312: Ownglyph phang2font
+313: Ownglyph raykong
+314: Ownglyph shiri
+315: Ownglyph soomini
+316: Ownglyph wiri
+317: Ownglyph yeondu323
+318: Pak_Yong_jun
+319: Pretendard
+320: Pretendard Bold
+321: Pretendard Heavy
+322: Pretendard Light
+323: Pretendard Medium
+324: Pretendard Semi-Bold
+325: Pretendard Thin
+326: Pretendard Ultra-Bold
+327: Pretendard Ultra-Light
+328: Pretendard Variable
+329: Pretendard Variable Bold
+330: Pretendard Variable Heavy
+331: Pretendard Variable Light
+332: Pretendard Variable Medium
+333: Pretendard Variable Semi-Bold
+334: Pretendard Variable Thin
+335: Pretendard Variable Ultra-Bold
+336: Pretendard Variable Ultra-Light
+337: PureBatang Bold
+338: PureBatang Light
+339: PureBatang Medium
+340: PureunJeonnam
+341: PureunJeonnam Bold
+342: PureunJeonnam Bold
+343: PyeongChang
+344: PyeongChang Bold
+345: PyeongChang Peace Bold
+346: PyeongChang Peace Light
+347: Regular
+348: RixInooAriDuri
+349: RixNoonmool M
+350: RixPinkRibbon M
+351: Room No.703
+352: SANGJU Dajungdagam
+353: SANGJU Gotgam
+354: SANGJU Gyeongcheon Island
+355: SANGJU Haerye
+356: SF_HailSnow
+357: Saenggeo Jincheon Medium
+358: Sandoll Samliphopangche TTF Ba weight=550
+359: Sandoll Samliphopangche TTF Ou weight=550
+360: SeoulHangang
+361: SeoulHangang
+362: SeoulHangang
+363: SeoulHangang
+364: SeoulHangangC
+365: SeoulHangangC
+366: SeoulHangangC
+367: SeoulHangangC
+368: SeoulHangangC
+369: SeoulNamsan
+370: SeoulNamsan
+371: SeoulNamsan
+372: SeoulNamsan
+373: SeoulNamsan
+374: SeoulNamsanC
+375: SeoulNamsanC
+376: SeoulNamsanC
+377: SeoulNamsanC
+378: SeoulNamsanC
+379: Solmoe KimDaeGeon
+380: Solmoe KimDaeGeon
+381: Suncheon
+382: Suncheon
+383: Suseong Batang
+384: Suseong Dotum
+385: Suseong Hyejeong
+386: TAEBAEK milkyway
+387: THEDonguri
+388: ThecircleB
+389: ThecircleL
+390: ThecircleM
+391: TlabShinYB
+392: Ttangsbudaejjigae Bold
+393: Ttangsbudaejjigae Light
+394: Ttangsbudaejjigae Medium
+395: UNPEOPLE Gothic KS
+396: UNPEOPLE Gothic UNI
+397: UhBee Banynany
+398: UhBee Banynany Bold
+399: UhBee freak researcher minani
+400: UhBee mysen
+401: UhBee mysen Bold
+402: Unreal_science_medicine
+403: Unreal_science_orbit
+404: Unreal_science_yuni
+405: Wandocleansea
+406: Wandocleansea
+407: Wandohope
+408: Wandohope
+409: Yanolja Yache
+410: Yanolja Yache Bold
+411: YiSunShin Bold
+412: YiSunShin Dotum B
+413: YiSunShin Dotum L
+414: YiSunShin Dotum M
+415: YiSunShin Regular
+416: Yydimibang
+417: andante
+418: netmarble Bold
+419: netmarble Light
+420: netmarble Medium
+421: tvN Enjoystories
+422: tvN Enjoystories
+423: tvN Enjoystories
+424: ♠H2 Medium
+425: ♠H3 Medium
+426: ♠H4 Medium
+427: ♠H5 Medium
+428: ♠H6 Medium
+429: ♠H7 Medium
+430: 꽃소금체 Medium
+431: 전주 완판본 각B
+432: 전주 완판본 각L
+433: 전주 완판본 각R
+434: 전주 완판본 순B
+435: 전주 완판본 순L
+436: 전주 완판본 순R
+437: 휴먼범석체
