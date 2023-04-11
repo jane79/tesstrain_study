@@ -7,10 +7,12 @@
 1. [tesstrain](https://github.com/tesseract-ocr/tesstrain) 을 git clone 한다.
 2. 우선적으로 설치해야 할 것들 **꼭 먼저 설치하기!!!**
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fc1803b5-51b3-48d3-b4b9-4de00f5a9868/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1855faf0-4ae4-4ffb-a832-13bda0a949db/Untitled.png)
-    
+    ![image](https://user-images.githubusercontent.com/48004826/231050848-2b86b450-c4ee-4093-9f85-8ff18985527d.png)
+    - automake
+    - pkg-config
+    - pango-devel
+    - cairo-devel
+    - icu-devel
     - rename
 3. tesseract 및 leptonica를 build한다.
 
@@ -44,8 +46,8 @@ $ sudo ldconfig
 
 [[해결법] fatal error: filesystem: No such file or directory](https://jtrimind.github.io/troubleshooting/filesystem/)
 
-1. `$ pip install -r requirements.txt`
-2. `$ make tesseract-langdata`
+4. `$ pip install -r requirements.txt`
+5. `$ make tesseract-langdata`
 
 # Prepare Training Dataset
 
@@ -59,7 +61,7 @@ $ sudo ldconfig
 
 [리눅스 폰트(linux font) 설치 및 font config 사용법](https://www.lesstif.com/lpt/linux-font-font-config-93127497.html)
 
-1. 학습 폰트 리스트를 추출한다.
+2. 학습 폰트 리스트를 추출한다.
 
 우분투에서 인식하는 폰트명이 복수개일 때가 있는데, tesstrain이 모두를 인식하진 못하는 것을 확인했다. 따라서 tesstrain에서 인식하는 폰트명을 우선 추출하고 난 후, 그것을 tesstrain 파라미터로 입력해야 한다. 즉 fontlist엔 text2image 실행 시 출력되는 폰트 명을 적어주어야 한다! (자세한건 [이슈](https://github.com/tesseract-ocr/tesseract/issues/217) 참조)
 
@@ -73,7 +75,7 @@ $ python ../tools/get_font_name.py
 # tesstrain의 fontlist 인자 값으로 가능한 폰트 명칭들이 result_font_list.txt 에 저장됨
 ```
 
-1. tesstrain으로 학습 데이터셋을 생성한다.
+3. tesstrain으로 학습 데이터셋을 생성한다.
 
 tesstrain.py로 학습 데이터셋 생성 전 필요한 사전작업을 한다. 예시 코드 및 예시 사전 작업은 아래에서 확인할 수 있다.
 
@@ -117,8 +119,8 @@ tesseract 의 traineddata 및 training_text 파일을 사용하여 학습 데이
     
     [이슈](https://github.com/tesseract-ocr/tesstrain/issues/7)의 Shreeshrii 코멘트를 보면,
     
-    1. `$ git clone [https://github.com/ocropus/hocr-tools.git](https://github.com/ocropus/hocr-tools.git)` 및 리드미의 installation 따르기
-    2. 클론한 레포에서 다음 내용의 sh 파일 작성 및 실행
+    a. `$ git clone [https://github.com/ocropus/hocr-tools.git](https://github.com/ocropus/hocr-tools.git)` 및 리드미의 installation 따르기  
+    b. 클론한 레포에서 다음 내용의 sh 파일 작성 및 실행
         
         ```python
         #!/bin/bash
@@ -137,12 +139,12 @@ tesseract 의 traineddata 및 training_text 파일을 사용하여 학습 데이
         echo "Image files converted to tif. Correct the ground truth files and then run ocr-d train to create box and lstmf files"
         ```
         
-        그러면 LANG.FONTNAME_page_%d-%03d.tif/gt 파일이 생성될 것. 각 파일은 kor.training_text 한 줄에 대한 정보를 담고 있다. 만약 **rename이 안 되었을 경우 터미널에서 rename만 다시 실행**
+        그러면 LANG.FONTNAME_page_%d-%03d.tif/gt 파일이 생성될 것. 각 파일은 kor.training_text 한 줄에 대한 정보를 담고 있다. 만약 **rename이 안 되었을 경우 터미널에서 rename만 다시 실행**  
         
-    3. `mv_multiline_to_tmp.py` 를 실행하여 기존의 여러 줄의 텍스트가 포함된 파일들을 임시 폴더(tmp)로 옮김. 삭제해도 상관 X
-    4. `update_gt.py`로 .gt 파일들의 내용을 정정해준다. 무슨 이유에선지 손실된 줄이 있거나, 한 페이지에 동일 개수의 줄이 들어있지 않은 특정 폰트가 있었다. (아래 이미지 참조) 이들은 일단은 학습 데이터에서 제외했다. (Hangul-ground-truth-wrong으로 옮김)
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ff605a7-c9ec-4b15-acb3-d1b3faab1b90/Untitled.png)
+    c. `mv_multiline_to_tmp.py` 를 실행하여 기존의 여러 줄의 텍스트가 포함된 파일들을 임시 폴더(tmp)로 옮김. 삭제해도 상관 X  
+    d. `update_gt.py`로 .gt 파일들의 내용을 정정해준다. 무슨 이유에선지 손실된 줄이 있거나, 한 페이지에 동일 개수의 줄이 들어있지 않은 특정 폰트가 있었다. (아래 이미지 참조) 이들은 일단은 학습 데이터에서 제외했다. (Hangul-ground-truth-wrong으로 옮김)  
+
+    ![image](https://user-images.githubusercontent.com/48004826/231051474-f6151284-ddb4-4002-95d0-fc3e67056ccd.png)
         
 
 # Training
@@ -159,13 +161,13 @@ START_MODEL=kor
 
 실행 후 아래 사진과 같은 에러 혹은 encoding error가 쭉 뜰 경우, all-gt 파일이 비어있는지 확인
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4641c02-9f26-40d2-b91a-2d2ff5f6c469/Untitled.png)
+![image](https://user-images.githubusercontent.com/48004826/231051587-79f3a1de-afb4-4d83-8b36-07e747623a1a.png)
 
 비어있을 경우, 아래 해결 방법 사용
 
 tesstrain/Makefile line 220 : $(**file** >$@) $(**foreach** F,$^,$(**file** >>$@,$(**file** <$F)))
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5114ee6-fe9f-4e6f-8517-1ff761aaf26f/Untitled.png)
+![image](https://user-images.githubusercontent.com/48004826/231051670-2ede6050-085e-4bbe-bd9c-8bb26fc4d8b6.png)
 
 `<` operator는 make 4.2 버전 이상에서.. 하지만 make를 4.2로 업그레이드 하고 training 실행할 경우 segmentation fault (core dumped)가 발생한다. 그럼 어떻게?
 
